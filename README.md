@@ -10,6 +10,7 @@ This package contains volumetric nfiti images in 2mm isotropic MNI space (folder
 
 Receptor labels are as follows:
 
+ - ADRA1A: Noradrenergic receptor alpha 1A 
  - ADRA1B: Noradrenergic receptor alpha 1B 
  - ADRA1D: Noradrenergic receptor alpha 1D
  - ADRA2A: Noradrenergic receptor alpha 2A 
