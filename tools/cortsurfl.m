@@ -1,8 +1,21 @@
-function cortsurfl(g,dat,cmap,clim)
-% cortsurf(g,dat,cmap,clim)
+function cortsurfl(g,dat)
+% CORTSURFL(gl,ldat) plots the data in ldat onto the cortical surface of 
+% the left hemisphere. The data are z-scored across space prior to plotting 
+% and the color ranges from -3 to 3. 
 %
-% plot cortical surface of HCP data
+% See also CORTSURFR
+%
+% RL van den Brink, 2019
 
+%% set areas to exclude from plotting, zscore, and define color range
+
+dat(isnan(dat)) = 1000; %set nans to a large value
+dat(dat<999) = zscore(dat(dat<999)); %zscore the real data
+clim = [-3 3]; %set color limit
+dat(dat>=clim(2) & dat < 999) = clim(2)-0.1; %set values outside the color range to the max
+cmap = [inferno(64); 1 1 1]; %define colormap
+
+%% plot surfaces
 
 figure
 
