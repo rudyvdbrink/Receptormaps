@@ -15,6 +15,8 @@ clim = [-3 3]; %set color limit
 dat(dat>=clim(2) & dat < 999) = clim(2)-0.1; %set values outside the color range to the max
 cmap = [inferno(64); 1 1 1]; %define colormap
 
+%% plot surfaces
+
 figure
 
 subplot(1,2,1)
