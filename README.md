@@ -6,7 +6,7 @@ If you use these, please cite:
 - van den Brink et al (2019): https://osf.io/preprints/tczwn/
 - Gryglewski et al (2018): https://www.ncbi.nlm.nih.gov/pubmed/29723639  
 
-This package contains volumetric nfiti images in 2mm isotropic MNI space (folder 'volumetric') and vertex-wise values that are HCP compatible (folder 'surface'), in matlab .mat files. The folder 'tools' contains matlab functions for plotting the surfaces (see example.m for syntax). 
+This package contains volumetric nfiti images in 2mm isotropic MNI space (folder 'volumetric') and vertex-wise values that (folder 'surface'), in matlab .mat files. The vertices stem from the HCP surfaces, so should be easy to substitute for less inflated or flatmap versions. The folder 'tools' contains matlab functions for plotting the surfaces (see example.m for syntax). 
 
 Receptor labels are as follows:
 
