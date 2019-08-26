@@ -1,6 +1,6 @@
 # Receptormaps
  
-Whole-brain receptor maps from Figure 2 in van den Brink, Pfeffer & Donner (2019) Brainstem modulation of large-scale intrinsic cortical activity correlations. OSF Preprints
+Whole-brain receptor maps from [Figure 2](https://ruudvandenbrink.files.wordpress.com/2019/08/vandenbrink_et_al_2019_fig2.png) in van den Brink, Pfeffer & Donner (2019) Brainstem modulation of large-scale intrinsic cortical activity correlations. OSF Preprints
 
 If you use these, please cite:
 - Gryglewski et al (2018): https://www.ncbi.nlm.nih.gov/pubmed/29723639  
