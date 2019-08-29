@@ -8,6 +8,15 @@ If you use these, please cite:
 
 This package contains volumetric nifti images in 2mm isotropic MNI space (folder 'volumetric') and vertex-wise values (folder 'surface'), in matlab .mat files. The vertices stem from the HCP surfaces, so should be easy to substitute for less inflated or flatmap versions. The folder 'tools' contains matlab functions for plotting the surfaces (see example.m for syntax). 
 
+<p align="center">
+    <img src="https://ruudvandenbrink.files.wordpress.com/2019/08/example.gif" width="200"\>
+</p>
+<p align="center">
+    Example receptor map<br>
+    (nicotinic acetylcholine receptor B3)
+</p>
+
+
 Receptor labels are as follows:
 
  - ADRA1A: Noradrenergic receptor alpha 1A 
