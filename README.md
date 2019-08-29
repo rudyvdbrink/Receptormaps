@@ -52,7 +52,7 @@ Receptor labels are as follows:
  - HTR3C: Serotonin receptor 3C  
  - HTR4: Serotonin receptor 4   
  - HTR5A: Serotonin receptor 5A  
- - HTR6: Serotonin receptor 1A   
+ - HTR6: Serotonin receptor 6   
  - HTR7: Serotonin receptor 7
  - HRH1: Histamine receptor 1 
  - HRH2: Histamine receptor 2
