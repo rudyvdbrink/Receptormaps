@@ -1,10 +1,10 @@
 # Receptormaps
  
-Whole-brain receptor maps from [Figure 2](https://ruudvandenbrink.files.wordpress.com/2019/08/vandenbrink_et_al_2019_fig2.png) in van den Brink, Pfeffer & Donner (2019) Brainstem modulation of large-scale intrinsic cortical activity correlations. OSF Preprints
+Whole-brain receptor maps from [Figure 2](https://ruudvandenbrink.files.wordpress.com/2019/08/vandenbrink_et_al_2019_fig2.png) in van den Brink, Pfeffer & Donner (2019) Brainstem modulation of large-scale intrinsic cortical activity correlations. Frontiers in Human Neuroscience 13 (340)
 
 If you use these, please cite:
 - Gryglewski et al (2018): https://www.ncbi.nlm.nih.gov/pubmed/29723639  
-- van den Brink et al (2019): https://osf.io/preprints/tczwn/
+- van den Brink et al (2019): https://www.frontiersin.org/articles/10.3389/fnhum.2019.00340/full
 
 This package contains volumetric nifti images in 2mm isotropic MNI space (folder 'volumetric') and vertex-wise values (folder 'surface'), in matlab .mat files. The vertices stem from the HCP surfaces, so should be easy to substitute for less inflated or flatmap versions. The folder 'tools' contains matlab functions for plotting the surfaces (see example.m for syntax). 
 
