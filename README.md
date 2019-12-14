@@ -16,6 +16,8 @@ This package contains volumetric nifti images in 2mm isotropic MNI space (folder
 </p>
 
 
+If you're looking for code to go from volumetric space to HCP surface space, check out [this](https://github.com/rudyvdbrink/Surface_projection) repository. 
+
 Receptor labels are as follows:
 
  - ADRA1A: Noradrenergic receptor alpha 1A 
